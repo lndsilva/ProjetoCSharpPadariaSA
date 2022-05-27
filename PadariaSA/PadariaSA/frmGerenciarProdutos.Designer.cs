@@ -320,6 +320,7 @@ namespace PadariaSA
             this.ltbListagemProdutos.Name = "ltbListagemProdutos";
             this.ltbListagemProdutos.Size = new System.Drawing.Size(265, 384);
             this.ltbListagemProdutos.TabIndex = 16;
+            this.ltbListagemProdutos.SelectedIndexChanged += new System.EventHandler(this.ltbListagemProdutos_SelectedIndexChanged);
             // 
             // lblListagemPesquisa
             // 
